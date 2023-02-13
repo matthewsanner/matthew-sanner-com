@@ -6,14 +6,18 @@ nav {
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
 }
 
+.navbar-brand {
+    font-family: 'Modak', cursive;
+}
+
 /* body {
     background-color: #7e22a5;
     overflow: hidden;
 } */
 
 .big-card {
-    border-color: black;
-    border-width: 5px;
+    border-color: #3d3d3d;
+    border-width: 3px;
     border-radius: 40px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
     max-width: 900px;
@@ -30,6 +34,26 @@ nav {
 
 .icon {
     padding: 6px;
+}
+
+.tooltip-wrap {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-wrap .tooltip-content {
+    display: none;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    right: 5%;
+    background-color: #fff;
+    padding: .5em;
+    min-width: 10rem;
+}
+
+.tooltip-wrap:hover .tooltip-content {
+    display: block;
 }
 
 @keyframes move {

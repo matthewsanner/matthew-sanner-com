@@ -8,7 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Calistoga">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Modak&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Matthew Sanner</title>
 </head>
@@ -18,8 +20,8 @@
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <i class="bi bi-fire bi-spin"></i>
-                Matthew Sanner
+                <img src="images/MS.png" height="40">
+                <!-- <i class="bi bi-fire bi-spin"></i> -->
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,16 +78,14 @@
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h3 class="card-title">About Me</h3>
-                        <p class="card-text">Hey, I'm Matthew. I am a passionate full-stack web developer interested
-                            in
-                            helping small
-                            businesses create beautiful and highly functional websites. I speak English and some
-                            Spanish. I'm a quick-learning problem
-                            solver also open to rewarding employment that fits my skill set. I am particularly
-                            interested in educational tech and start-ups. I love creating web apps that help people
-                            streamline their lives and accomplish
-                            their goals. Check out some of my work below!
+                        <h3 class="card-title">Hey, I'm Matthew Sanner.</h3>
+                        <p class="card-text">I'm a passionate early career web developer with a focus
+                            on the MERN stack, particularly MongoDB, Express, and Node.js. I love solving problems and
+                            working with others. I speak English and some Spanish. Let me know if I can build a
+                            website for you, or if you are interested in having me on your team! I am particularly
+                            interested in
+                            educational tech and start-ups. I also enjoy nature, music, and fashion. Check out
+                            some of my work below!
                         </p>
                         <ul>
                             <li>Associate's degree from the University of Montana</li>
@@ -99,15 +99,54 @@
             <a id="tech-stack" class="card-anchor"></a>
             <div class="card-body">
                 <h3 class="card-title">Tech Stack</h3>
-                <p class="card-text">
-                    <img class="icon" src="images/html5.png" alt="html5">
-                    <img class="icon" src="images/css3.png" alt="css3">
-                    <img class="icon" src="images/javascript.png" alt="javascript">
-                    <img class="icon" src="images/react.png" alt="react">
-                    <img class="icon" src="images/bootstrap.png" alt="bootstrap">
-                    <img class="icon" src="images/mongodb.png" alt="mongodb">
-                    <img class="icon" src="images/express.png" alt="express">
-                </p>
+                <div class="tooltip-wrap">
+                    <img class="icon" src="images/html5.png" alt="Html 5" width="92">
+                    <div class="tooltip-content">
+                        Html 5
+                    </div>
+                </div>
+                <div class="tooltip-wrap">
+                    <img class="icon" src="images/css3.png" alt="CSS 3" width="92">
+                    <div class="tooltip-content">
+                        CSS 3
+                    </div>
+                </div>
+                <div class="tooltip-wrap">
+                    <img class="icon" src="images/javascript.png" alt="Javascript" width="92">
+                    <div class="tooltip-content">
+                        Javascript
+                    </div>
+                </div>
+                <div class="tooltip-wrap">
+                    <img class="icon" src="images/nodejs.png" alt="Node.js" width="92">
+                    <div class="tooltip-content">
+                        Node.js
+                    </div>
+                </div>
+                <div class="tooltip-wrap">
+                    <img class="icon" src="images/mongodb.png" alt="Mongo DB" width="92">
+                    <div class="tooltip-content">
+                        Mongo DB
+                    </div>
+                </div>
+                <div class="tooltip-wrap">
+                    <img class="icon" src="images/express.png" alt="Express.js" width="92">
+                    <div class="tooltip-content">
+                        Express.js
+                    </div>
+                </div>
+                <div class="tooltip-wrap">
+                    <img class="icon" src="images/react.png" alt="React" width="92">
+                    <div class="tooltip-content">
+                        React.js
+                    </div>
+                </div>
+                <div class="tooltip-wrap">
+                    <img class="icon" src="images/bootstrap.png" alt="Bootstrap" width="92">
+                    <div class="tooltip-content">
+                        Bootstrap
+                    </div>
+                </div>
             </div>
         </div>
         <div class="card p-3 mb-4 mx-auto big-card">
@@ -119,26 +158,39 @@
                         <div class="col-sm-4">
                             <div class="card p-2">
                                 <img class="card-img-top mb-3" src="images/flashy.png">
-                                <h5 class="card-title">Flashy</h5>
-                                <h6>A flashcard app</h6>
-                                <button class="btn btn-success btn-sm"
-                                    href="https://flashy-vgut.onrender.com/">App</button>
-                                <button class="btn btn-success btn-sm"
-                                    href="https://github.com/gravityskunk/flashcard-app">Code</button>
+                                <div class="card-body">
+                                    <h5 class="card-title">Flashy</h5>
+                                    <h6>A flashcard app</h6>
+                                    <a class="btn btn-primary" href="https://flashy-vgut.onrender.com/">App</a>
+                                    <a class="btn btn-secondary"
+                                        href="https://github.com/gravityskunk/flashcard-app">Code</a>
+                                </div>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="card p-2">
                                 <img class="card-img-top mb-3" src="images/playfulshapes.png">
-                                <h5 class="card-title">Playful Shapes</h5>
-                                <h6>A generative art app</h6>
+                                <div class="card-body">
+                                    <h5 class="card-title">Playful Shapes</h5>
+                                    <h6>A generative art app</h6>
+                                    <a class="btn btn-primary"
+                                        href="https://betodute.github.io/generative-art-collaborative-project/">App</a>
+                                    <a class="btn btn-secondary"
+                                        href="https://github.com/betodute/generative-art-collaborative-project">Code</a>
+                                </div>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="card p-2">
                                 <img class="card-img-top mb-3" src="images/lengua.png">
-                                <h5 class="card-title">Lengua</h5>
-                                <h6>A simple language translator</h6>
+                                <div class="card-body">
+                                    <h5 class="card-title">Lengua</h5>
+                                    <h6>A simple language translator</h6>
+                                    <a class="btn btn-primary"
+                                        href="https://gravityskunk.github.io/language-translator/">App</a>
+                                    <a class="btn btn-secondary"
+                                        href="https://github.com/gravityskunk/language-translator">Code</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -152,7 +204,8 @@
                 <h3 class="card-title">Contact</h3>
                 <p class="card-text">Please feel free to message me at my email- <a
                         href="mailto:gravityskunk@gmail.com">gravityskunk@gmail.com</a> with any opportunities,
-                    inquiries, or ideas!</p>
+                    inquiries, or ideas! Also connect with me on LinkedIn, GitHub, and Medium via the links at the top
+                    of the page!</p>
             </div>
         </div>
     </main>
@@ -160,6 +213,7 @@
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
     <script src="background.js"></script>
+    <script src="popup.js"></script>
 </body>
 
 </html>
