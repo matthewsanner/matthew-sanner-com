@@ -10,10 +10,14 @@ nav {
     font-family: 'Modak', cursive;
 }
 
-/* body {
-    background-color: #7e22a5;
-    overflow: hidden;
-} */
+#devillustration {
+    font-size: small;
+    text-align: center;
+}
+
+#tech-stack {
+    text-align: center;
+}
 
 .big-card {
     border-color: #3d3d3d;
@@ -76,13 +80,4 @@ nav {
     width: 100%;
     height: 100%;
     z-index: -1;
-}
-
-#devillustration {
-    font-size: small;
-    text-align: center;
-}
-
-#tech-stack {
-    text-align: center;
 }
