@@ -28,6 +28,12 @@ nav {
     top: -75px;
 }
 
+@media (max-width: 991.99px) {
+    .card-anchor {
+        top: -375px;
+    }
+}
+
 .card-title {
     font-family: 'Calistoga', 'Helvetica', sans-serif;
 }
