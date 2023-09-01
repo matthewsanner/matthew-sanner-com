@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="I'm Matthew- a web developer on a mission! Contact me about building a website for you or your business, streamlining your workflow with APIs, or if you are looking to add to your team." />
+    <meta
+      name="keywords"
+      content="web developer, streamline, streamlining, streamline my workflow, web designer, design my website, SEO, web design, front-end, back-end, API, MongoDB, Express.js, React, Node.js, full-stack, full-stack web developer, front-end developer, back-end developer, full-stack developer, Javascript, HTML, CSS" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -22,7 +28,7 @@
       href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap"
       rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Matthew Sanner</title>
+    <title>Matthew Sanner- Full-stack Web Developer</title>
   </head>
 
   <body>
@@ -94,15 +100,14 @@
                   <i class="bi bi-github"></i>
                 </a>
               </li>
-              <!-- <li class="nav-item">
+              <li class="nav-item">
                 <a
                   class="nav-link"
-                  href="http://medium.com/@matthewsanner"
-                  target="_blank"
-                >
-                  <i class="bi bi-medium"></i>
+                  href="https://twitter.com/MattSannerDev"
+                  target="_blank">
+                  <i class="bi bi-twitter"></i>
                 </a>
-              </li> -->
+              </li>
             </ul>
           </div>
         </div>
@@ -112,7 +117,7 @@
       <div class="card p-3 my-4 mx-auto big-card">
         <a id="about-me" class="card-anchor"></a>
         <div class="row g-0">
-          <div class="col-md-4">
+          <div class="col-md-4 text-center">
             <img
               src="images/propfpborder.png"
               class="img-fluid rounded-start"
@@ -346,7 +351,7 @@
                     </p>
                     <a
                       class="btn btn-primary"
-                      href="https://spokenbysandi.com"
+                      href="https://holamexicohola.com"
                       target="_blank"
                       >Website</a
                     >
@@ -359,7 +364,7 @@
       </div>
       <div class="card p-3 mb-4 mx-auto big-card">
         <a id="contact" class="card-anchor"></a>
-        <div class="card-body">
+        <!-- <div class="card-body">
           <h3 class="card-title">Contact</h3>
           <p class="card-text">
             Please feel free to message me at my email-
@@ -369,6 +374,60 @@
             with any opportunities, inquiries, or ideas! Also connect with me on
             LinkedIn and GitHub via the links at the top of the page.
           </p>
+        </div> -->
+        <div class="card-body">
+          <h3 class="card-title text-center">Contact</h3>
+          <p class="card-text text-center">
+            Please send me a message with any inquiries, opportunities, or
+            ideas! You can also contact me directly at
+            <a href="mailto:matthewsannerdev@gmail.com"
+              >matthewsannerdev@gmail.com</a
+            >
+            or connect with me on LinkedIn, GitHub, and Twitter via the links at
+            the top of the page.
+          </p>
+          <div
+            class="d-flex flex-column justify-content-center align-items-center text-center p-3">
+            <form
+              action="contact.php"
+              method="POST"
+              id="contact-form"
+              class="w-100 mx-auto rounded-lg p-2">
+              <div class="mb-4">
+                <label for="name" class="form-label mb-2">Name:</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-control"
+                  required />
+              </div>
+              <div class="mb-4">
+                <label for="email" class="form-label mb-2"
+                  >Email Address:</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-control"
+                  required />
+              </div>
+              <div class="mb-6">
+                <label for="message" class="form-label mb-2">Message:</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  class="form-control"
+                  required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-md mt-4">
+                Submit
+              </button>
+            </form>
+            <div id="form-message"></div>
+          </div>
         </div>
       </div>
     </main>
@@ -378,5 +437,6 @@
       crossorigin="anonymous"></script>
     <script src="navbar.js"></script>
     <script src="background.js"></script>
+    <script src="form-send.js"></script>
   </body>
 </html>
